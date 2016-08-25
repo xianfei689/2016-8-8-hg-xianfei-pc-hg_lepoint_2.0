@@ -6,6 +6,7 @@
 	height: 500px;
 	background-repeat: no-repeat;
     background-position:center bottom;
+   
 }
 #lehead{
 	width: 100%;
@@ -20,7 +21,8 @@
 	display: none;
 }
 .leimg1{
-    width:56%;
+    width:49%;
+    margin-top: 20px;
 }
 .headct {
 	width: 100%;
