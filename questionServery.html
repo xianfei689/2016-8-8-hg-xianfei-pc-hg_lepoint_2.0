@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible"content="IE=edge">
+	<meta charset="utf-8">
+	<title>汇购科技-乐积分</title>
+	<link rel="stylesheet" type="text/css" href="css/cssinit.css">
+	<link rel="stylesheet" type="text/css" href="css/joinus.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/fakeLoader.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/loaders.css">
+	<style type="text/css">
+		#querycont{
+			visibility: hidden;
+		}
+		
+		.queryhead{
+			width: 100%;
+		}
+		 ::-webkit-scrollbar {
+			    width: 0px;
+	     }
+		#head{
+			    background-image: url("img/query/head.jpg");
+			    height: auto;
+		}
+		.g_content{
+			display: none;
+		}
+		#ct6 .c2t1{
+			padding-top: 53px;
+
+		}
+		#ct6{
+			    height: 220px;
+		}
+	</style>
+	</head>
+<body onload="dosome()"> 
+
+		<div id="loading" ></div>
+		<div class="querycont" id="querycont" >
+				<div id="head">
+					<div class="headct">
+						<div class="cont">
+							<img src="img/common/top_logo.png">
+							<span class="hdct hct1 " onclick="window.location.href='login.html'">首页</span>
+							<span class="hdct hct2" onclick="window.location.href='lepoint.html'">积分大赛</span>
+							<span class="hdct hct2 active" >调查问卷</span>
+							<span class="hdct hct2 " onclick="window.location.href='joinUs.html'">加入我们</span>
+							<span class="hdct hct2" onclick="window.location.href='down.html'">下载</span>
+						</div>
+					</div>
+				</div>	
+				<iframe height="1200" width="100%;" src="http://wj.qq.com/s/749474/307e" frameborder="0" allowfullscreen id="myFrame" "></iframe>
+				<div id="ct6">
+					<div class="c2t1">
+						   	<img src="img/common/code1.png" class="img1">
+					<img src="img/common/img2.png" class="img2">
+					<img src="img/common/code2.png" class="img3">
+					<img src="img/common/img1.png" class="img4">
+					</div>
+			</div>
+		</div>
+		
+</body>
+	<script type="text/javascript" src="frame/lib/fullPage/jquery.min.js"></script>
+	<script type="text/javascript" src="frame/lib/fullPage/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="frame/lib/load/fakeLoader.min.js"></script>
+<script type = "text/javascript" > 
+	// $(window.frames["pyun"].document).find(".box").css({"padding-left","50px"})
+/*	function dosome(){  
+		   // var deptObjs= document.getElementById("myFrame").contentWindow.document.getElementsById("footer");  
+		   // 
+			//console.log(deptObjs);
+		$(window.frames["myFrame"].document).find("#footer").hide();
+	}*/
+
+		$(document).ready(function() {
+
+
+			 var aa = $("#loading").fakeLoader({
+        	 		timeToHide:1300,
+                    bgColor:"#fff",
+                    spinner:"spinner8"//spinnerx x[1,7]
+       		 });
+       		 setTimeout(function(){
+       		 	$("#querycont").css({
+       		 		visibility: 'visible',
+       		 	});
+       		 },1300);
+		   
+	  });
+
+		
+
+ </script>
+</html>
+

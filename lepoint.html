@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible"content="IE=edge">
+	<meta charset="utf-8">
+	<title>汇购科技-乐积分</title>
+	<link rel="stylesheet" type="text/css" href="css/cssinit.css">
+	<link rel="stylesheet" type="text/css" href="css/joinus.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/fakeLoader.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/loaders.css">
+	<style type="text/css"></style>
+</head>
+<body>
+	<div id="loading" ></div>
+	<div id="main">
+			<div id="lehead">
+				<div class="headct">
+					<div class="cont">
+						<img src="img/common/top_logo.png">
+						<span class="hdct hct1 " onclick="window.location.href='login.html'">首页</span>
+						<span class="hdct hct2 active">积分大赛</span>
+						<span class="hdct hct2" onclick="window.location.href='questionServery.html'">调查问卷</span>
+						<span class="hdct hct2 " onclick="window.location.href='joinUs.html'">加入我们</span>
+						<span class="hdct hct2" onclick="window.location.href='down.html'">下载</span>
+					</div>
+				</div>
+				<img src="img/dasai/icon2.png" class="leimg1">
+			</div>
+			<img src="img/dasai/icon3.png" style="display:block;">
+			<img src="img/dasai/icon4.png" style="display:block;">
+			<img src="img/dasai/icon5.png" style="display:block;">
+			<img src="img/dasai/icon6.png" style="display:block;">
+			<div class="lectont">
+					<img src="img/common/code1.png" class="img1">
+					<img src="img/common/img2.png" class="img2">
+					<img src="img/common/code2.png" class="img3">
+					<img src="img/common/img1.png" class="img4">
+			</div>	
+	</div>
+
+</body>
+		<script type="text/javascript" src="frame/lib/fullPage/jquery.min.js"></script>
+		<script type="text/javascript" src="frame/lib/load/fakeLoader.min.js"></script>
+		<script type = "text/javascript" > 
+		 	var aa = $("#loading").fakeLoader({
+		        	 		timeToHide:1200,
+		                    bgColor:"#fff",
+		                    spinner:"spinner8"//spinnerx x[1,7]
+		    });
+		   setTimeout(function(){
+       		 	$("#main").show();
+           },1300);
+ </script>
+	</html>

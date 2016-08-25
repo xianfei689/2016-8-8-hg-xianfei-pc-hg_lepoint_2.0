@@ -1,0 +1,350 @@
+/* @xianfei @date:2016/8/18  09:35am to oilRecharge platform css  start*/
+#fullpage {
+	visibility: hidden;	/* display: none; */
+}
+
+/* common start */
+h1 {
+	font-size: 5em;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+#header {
+	position: absolute;
+	top: 0px;
+	height: 80px;
+	display: block;
+	width: 100%;
+	z-index: 9;
+	color: #f2f2f2;
+	padding: 10px 0;
+	background-image: url("../img/common/bg1.png");
+}
+.headct {
+	width: 1200px;
+	margin: 0 auto;
+	height: 80px;
+}
+.hdct {
+	display: inline-block;
+	color: #fff;
+	padding: 5px 31px;
+	border-radius: 9px;
+	font-size: 18px;
+	font-family: "YouYuan";
+	margin-top: 25px;
+	cursor: pointer;
+}
+.headct .active {
+	background-color: #FFE819;
+	color: #000;
+}
+.hct1 {
+	margin-left: 78px;
+}
+.hct2 {
+	margin-left: 55px;
+}
+.section .intro {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+#fp-nav.right {
+	right: 129px;
+}
+
+/*common end*/
+
+/* part1 start */
+#slide1 {
+	background-image: url(../img/index1/indexbg_01.jpg);
+	background-position: left bottom;
+}
+.slide1_ct {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.s1_img1 {
+	width: 27%;
+	left: 164px;
+	bottom: -169px;
+	position: absolute;
+}
+.s1_img2 {
+	width: 23%;
+	position: absolute;
+	right: 344px;
+	top: -176px;
+}
+.s1_img3 {
+	width: 9%;
+	position: absolute;
+	right: 506px;
+	top: -13px;
+}
+.s1_img4 {
+	width: 12%;
+	position: absolute;
+	right: 336px;
+	top: -4px;
+}
+.s1_img5 {
+	width: 12%;
+	position: absolute;
+	right: 336px;
+	top: 55px;
+}
+#slide2 {
+	background-image: url("../img/index1/slide2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+#slide2 img {
+	margin-top: 28px;
+        width: 53%;
+}
+#slide3{
+    background-image:url("../img/index1/slide3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+#slide3 img{
+    width:56%;
+}
+
+/* part1 end */
+
+/* part2 start  */
+#section2 {
+	background-image: url("../img/index2/indexbg_02.jpg");
+}
+#section2 .fp-tableCell {
+	display: block;
+}
+.s2_t1 {
+	font-family: "YouYuan";
+	color: rgb(43, 38, 6);
+	font-size: 48px;
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+.s2_t2 {
+	font-size: 24px;
+	font-family: "Arial";
+	color: rgba(255, 196, 69, 0.6);
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+.s2_t3 {
+	margin-top: 20px;
+	font-size: 24px;
+	font-family: "YouYuan";
+	color: rgb(91, 82, 22);
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+.s2_t4 {
+	font-size: 24px;
+	font-family: "YouYuan";
+	color: rgb(91, 82, 22);
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+.s2_m1 {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 169px;
+}
+.s2_m2 {
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+/* part2 end */
+
+/* part3 start */
+
+#section3 {
+	background-image: url("../img/index3/indexbg_03.jpg");
+	background-position: top center;
+}
+#section3 .fp-tableCell {
+	display: block;
+}
+.s3_t1 {
+	color: rgb(255, 255, 255);
+}
+.s3_m1 {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 29px;
+	margin-top: 201px;
+}
+
+/* part3 end */
+
+/* part4 start */
+#section3 {
+	background-image: url("../img/index3/indexbg_03.jpg");
+	background-position: top center;
+}
+#section3 .fp-tableCell {
+	display: block;
+}
+
+/* part4 end */
+#section4 {
+	background-image: url("../img/index4/bg.png");
+	background-position: top center;
+}
+#section4 .fp-tableCell {
+	display: block;
+}
+.s4_m1 {
+	width: 61%;
+	margin: 0 auto;
+	margin-top: 174px;
+	display: block;
+}
+
+/* part5 start */
+#section5 {
+	background-image: url("../img/index5/indexbg_05.jpg");
+	background-position: top center;
+}
+#section5 .fp-tableCell {
+	display: block;
+}
+.s5_m1 {
+	display: block;
+	margin: 0 auto;
+	width: 822px;
+}
+.s5_m2 {
+	display: inline-block;
+	margin: 0 auto;
+}
+.s5p1 {
+	font-size: 25px;
+	font-family: "YouYuan";
+	color: rgb(255, 232, 25);
+	position: absolute;
+	right: 372px;
+	top: 290px;
+}
+.s5p1 .sp {
+	margin-left: 10px;
+}
+.s5p2 {
+	font-size: 22px;
+	font-family: "YouYuan";
+	color: rgb(17, 17, 17);
+	background-color: #FFE819;
+	padding: 10px 20px;
+	border-radius: 8px;
+	position: absolute;
+	right: 495px;
+	top: 347px;
+	cursor: pointer;
+}
+.s5p3 {
+	font-size: 22px;
+	font-family: "YouYuan";
+	color: rgb(255, 255, 255);
+	position: absolute;
+	right: 535px;
+	top: 436px;
+}
+.s5p4 {
+	font-size: 18px;
+	font-family: "YouYuan";
+	color: #000;
+	position: absolute;
+	right: 480px;
+	top: 479px;
+	width: 216px;
+	background-color: #fff;
+	padding: 5px;
+	padding-left: 10px;
+}
+.s5p4 input {
+	border: none;
+	margin-bottom: 5px;
+	width: 117px;
+}
+.s5p4 label {
+	margin-left: 26px;
+}
+.s5p5 {
+	font-size: 18px;
+	font-family: "YouYuan";
+	color: #000;
+	position: absolute;
+	right: 480px;
+	top: 531px;
+	width: 216px;
+	background-color: #fff;
+	padding: 5px;
+	padding-left: 10px;
+}
+.s5p5 input {
+	border: none;
+	margin-bottom: 5px;
+	width: 117px;
+}
+.s5p4 label {
+	margin-left: 16px;
+}
+.s5p6 {
+	font-size: 16px;
+	font-family: "YouYuan";
+	color: rgb(17, 17, 17);
+	background-color: #FFE819;
+	padding: 5px 20px;
+	border-radius: 5px;
+	position: absolute;
+	right: 554px;
+	top: 580px;
+	cursor: pointer;
+}
+.s5p7 {
+	width: 100%;
+	background-image: url("../img/common/bottom_banner.png");
+	height: 200px;
+	background-position: center top;
+	text-align: center;
+}
+.s5p7 img {
+	display: inline-block;
+	margin-top: 44px;
+}
+.s5p7 .img2 {
+	margin-left: 25px;
+	margin-top: 59px;
+}
+.s5p7 .img3 {
+	margin-left: 100px;
+}
+.s5p7 .img4 {
+	margin-left: 25px;
+	margin-top: 59px;
+}
+
+/* part5 end */
+
+/* @xianfei @date:2016/8/10  09:35am  to oilRecharge platform css  end*/

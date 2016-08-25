@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible"content="IE=edge">
+	<meta charset="utf-8">
+	<title>汇购科技-乐积分</title>
+	<link rel="stylesheet" type="text/css" href="css/cssinit.css">
+	<link rel="stylesheet" type="text/css" href="css/lePoint.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/fakeLoader.css">
+	<link rel="stylesheet" type="text/css" href="frame/lib/load/loaders.css">
+	<style type="text/css">
+			html,body,#section1,#slide1,.slide1_ct{
+				height: 100%;
+			}
+			.p3_img1{
+				    width: 471px;
+				    position: absolute;
+				    left: 115px;
+				    top: 175px;
+			}
+			.p3_img2{
+				    width: 326px;
+				    position: absolute;
+				    left: 669px;
+				    top: 206px;
+			}
+			.p3_img3{
+				    width: 140px;
+				    position: absolute;
+				    left: 669px;
+				    top: 417px;
+			}
+			.p3_img4{
+				    width: 150px;
+				    position: absolute;
+				    left: 833px;
+				    top: 431px;
+			}
+			.p3_img5{
+				    width: 150px;
+				    position: absolute;
+				    left: 833px;
+				    top: 503px;
+			}
+			#section1{
+				display: none;
+			}
+	</style>
+	</head>
+<body>
+	<div id="loading" ></div>
+		<div class="section "id="section1" style="height:100%;">
+			<div id="header">
+				<div class="headct">
+					<img src="img/common/top_logo.png">
+					<span class="hdct hct1 " onclick="window.location.href='login.html'">首页</span>
+					<span class="hdct hct2" onclick="window.location.href='lepoint.html'">积分大赛</span>
+					<span class="hdct hct2" onclick="window.location.href='questionServery.html'">调查问卷</span>
+					<span class="hdct hct2" onclick="window.location.href='joinUs.html'">加入我们</span>
+					<span class="hdct hct2 active" >下载</span>
+				</div>
+			</div>
+			<div class="slide" id="slide1">
+				<div class="slide1_ct">
+					<img src="img/index3/index3_man.png" class="p3_img1">
+					<img src="img/index1/banner_title.png" class="p3_img2">
+					<img src="img/common/code1.png" class="p3_img3">
+					<img src="img/index1/btn_android.png" class="p3_img4">
+					<img src="img/index1/btn_ios.png" class="p3_img5"></div>
+
+			</div>
+		</div>
+		
+</body>
+	<script type="text/javascript" src="frame/lib/fullPage/jquery.min.js"></script>
+	<script type="text/javascript" src="frame/lib/load/fakeLoader.min.js"></script>
+<script type = "text/javascript" > 
+		$(document).ready(function() {
+
+			 var aa = $("#loading").fakeLoader({
+        	 		timeToHide:1300,
+                    bgColor:"#fff",
+                    spinner:"spinner8"//spinnerx x[1,7]
+       		 });
+       		 setTimeout(function(){
+       		 	$("#section1").show();
+       		 },1300);
+		   
+	  });
+
+
+ </script>
+</html>
+

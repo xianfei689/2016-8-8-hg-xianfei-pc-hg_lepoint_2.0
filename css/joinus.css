@@ -1,0 +1,239 @@
+/* @xianfei @date:2016/8/18  09:35am to oilRecharge platform css  start*/
+#head {
+	width: 100%;
+	background-image: url("../img/joinus/head.png");
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+    background-position:center bottom;
+}
+#lehead{
+	width: 100%;
+	background-image: url("../img/dasai/icon1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#main{
+	overflow: hidden;
+	display: none;
+}
+.leimg1{
+    width:56%;
+}
+.headct {
+	width: 100%;
+	color: #f2f2f2;
+	padding: 10px 0;
+	background-image: url("../img/common/bg1.png");
+}
+ .cont {
+	width: 1200px;
+	margin: 0 auto;
+	height: 80px;
+}
+.hdct {
+	display: inline-block;
+	color: #fff;
+	padding: 5px 31px;
+	border-radius: 9px;
+	font-size: 18px;
+	font-family: "YouYuan";
+	margin-top: 25px;
+	cursor: pointer;
+}
+.headct .active {
+	background-color: #FFE819;
+	color: #000;
+}
+.hct1 {
+	margin-left: 78px;
+}
+.hct2 {
+	margin-left: 55px;
+
+}
+#ct1 {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+.ft1 {
+	font-size: 37px;
+	font-family: "Microsoft YaHei";
+	color: rgb(34, 34, 34);
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+.ft2 {
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	color: rgb(34, 34, 34);
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.ft3 {
+	height: 5px;
+	width: 100px;
+	background-color: #000;
+}
+.font_weight {
+	font-weight: bold;
+}
+#ct2{
+	width: 100%;
+	background-color: #F6F6F6;
+	padding-bottom: 80px;
+}
+#ct3{
+	width: 100%;
+	background-color: #fff;
+
+}
+#ct4{
+	background-color: #F7F7F7;
+	width: 100%;
+}
+
+ .c2t1{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 270px;
+}
+.c2img1{
+    position: absolute;
+    bottom: -11px;
+    left: 871px;
+    width: 244px;
+}
+.c3img1{
+	    width: 200px;
+    margin-top: 26px;
+}
+.ft4{
+	 font-size: 30px;
+  font-family: "Microsoft YaHei";
+  color: rgb(34, 34, 34);
+      margin-top: 100px;
+      margin-bottom: 30px;
+}
+.ft{
+  font-size: 18px;
+  font-family: "YouYuan";
+  color: rgb(34, 34, 34);
+  line-height: 1.2;
+}
+.c2t1_c1{
+	display: inline-block;
+}
+#ct3_div{
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+}
+#ct3_div .c2t1_c1{
+	margin-left: 60px;
+}
+
+#ct3_div  .ft4{
+	margin-top: 50px;
+}
+#ct4{
+	   padding-top: 50px;
+	    padding-bottom: 50px;
+}
+.ct4_img{
+	margin-left: 60px;
+	width: 200px;
+}
+#ct4 .ft4{
+	margin-top: 40px;
+}
+#ct6{
+	background-image: url("../img/joinus/bottom.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: 300px;
+}
+.c5_img{
+	margin-top: 106px;
+	margin-right: 60px;
+	width: 200px;
+}
+html,body{
+	height: 100%;
+}
+#ct6 .c2t1{
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-top: 147px;
+  font-size: 18px;
+  font-family: "YouYuan";
+  color: rgb(255, 255, 255);
+  text-align:center;
+ /*text-decoration: underline;*/
+}
+#ct6 span{
+	font-size: 24px;
+}
+.c6ct{
+	display: inline-block;
+}
+
+.c6ct1{
+	margin-left: 150px;
+}
+.c6ct2{
+    margin-left: 66px;
+}
+.c6ct3{
+	    margin-left: 80px;
+	        margin-left: 25px;
+}
+.c6sp1{
+	margin-right: 30px;
+}
+.c6sp2{
+	margin-right: 30px;
+}
+.c6sp3{
+	
+}
+.c6p2{
+	    margin-top: 13px;
+}
+.c6p3{
+	 color: rgba(255, 255, 255, 0.6);
+	 margin-top: 20px;
+}
+.c6p4{
+	 color: rgba(255, 255, 255, 0.6);
+}
+
+.c6ct1 .active{
+     color: rgb(255, 232, 25);
+     text-decoration: underline;
+}
+.lectont{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	background-color: #523B20;
+	padding-top: 26px;
+}
+.img1{
+	margin-right: 20px;
+}
+.img2{
+    margin-top: 20px;
+    margin-right: 141px;
+}
+.img3{
+	    margin-right: 20px;
+}
+.img4{
+	    margin-top: 20px;
+}
+/* @xianfei @date:2016/8/18  09:35am to oilRecharge platform css  end*/
